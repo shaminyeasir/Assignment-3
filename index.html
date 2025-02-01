@@ -28,7 +28,7 @@
                 <img src="c2-assets/NavLogo.png" alt="">
             </div>
             <div class="nav_mid hidden lg:block lg: pl-[150px]">
-                <ul class="text-xl text-[#111111] flex justify-between gap-x-8">
+                <ul class="text-xl text-[#111111] font-medium flex justify-between gap-x-8">
                     <li><a href="">Product</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Contact Us</a></li>
@@ -50,7 +50,7 @@
         </nav>
         <div class="banner pt-[48px] px-9 lg:px-[285px] bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] space-y-9">
             <h1 class="text-[56px] font-semibold text-[#111111] text-center">
-                Freshness <span class="text-[#179800]">You&nbsp;Can<br>Count</span> On, Prices You’ll Love!
+                Freshness <span class="text-[#179800]"><span class="move-text-right">You&nbsp;Can</span><br><span class="move-text-left">Count</span></span> On, Prices You’ll Love!
             </h1>
             <p class="text-[20px] font-normal text-[#111111] text-center">
                 Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
@@ -105,13 +105,13 @@
          <section class="px-[16px] py-[48px] lg:p-[140px] bg-[#EFEBE3]">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-[20px]">Popular Products</h1>
             <div class="flex flex-col lg:flex-row gap-[32px] justify-between lg:gap-x-4">
-                <div class="relative space-y-4 bg-gradient-to-br from-[#33E21F] to-[#93F788] pb-[250px] rounded-[10px] pl-[30px] pr-[30px] pt-[50px]">
+                <div class="relative lg:w-1/3 space-y-4 bg-gradient-to-br from-[#33E21F] to-[#93F788] pb-[250px] rounded-[10px] pl-[30px] pr-[30px] pt-[50px]">
                     <h4 class="text-[30px] font-bold text-[#ffffff]">30% off</h4>
                     <p class="text-[20px] font-normal text-[#111111]">Discover a world of treats, toys, and essentials handpicked for</p>
                     <button class="text-[20px] font-semibold px-[20px] py-[10px] bg-[#ffffff] rounded-[10px]">Buy Now</button>
                     <img src="c2-assets/vegetable-offer.png" alt="" class="absolute bottom-0 right-[10px] h-auto">
                 </div>
-                <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="grid lg:grow grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="p-[16px] rounded-[10px] bg-[#FFFFFF] flex justify-between gap-x-4">
                         <img src="c2-assets/onion.png" alt="" class=" bg-[#EFEBE3] rounded-[10px] p-2">
                         <div>
@@ -191,7 +191,7 @@
           <section class="px-[16px] pt-[48px] pb-[500px] lg:p-[140px] lg:pb-[400px] bg-[#FFFFFF] relative">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-12">Arrival & Offers</h1>
             <div class="flex flex-col lg:flex-row justify-between gap-y-[16px] lg:gap-x-[20px]">
-                <div class="bg-[#115414] flex gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
+                <div class="bg-[#115414] flex lg:w-3/5 gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
                     <div class="space-y-5">
                         <img src="c2-assets/dawat-logo.png" alt="">
                         <p class="bg-[#63B76D] rounded-[12px] px-[32px] py-[14px] inline-block text-[22px] text-[#FFFFFF]">Cook Exotic Dishes</p>
@@ -202,7 +202,7 @@
                     </div>
                 </div>
 
-                <div class="bg-[#102861] flex gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
+                <div class="bg-[#102861] flex lg:w-2/5 gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
                     <div class="space-y-5">
                         <img src="c2-assets/india-gate-logo.png" alt="">
                         <p class="bg-[#63B76D] rounded-[12px] px-[32px] py-[14px] inline-block text-[22px] text-[#FFFFFF]">World's No.1 Rice</p>
@@ -214,8 +214,8 @@
                 </div>
             </div>
             <div class="floating bg-[#EFEBE3] p-[32px] rounded-[16px] lg:px-[100px] lg:py-[55px] lg:rounded-[24px] flex flex-col lg:flex-row justify-between gap-x-[130px] absolute -bottom-[320px] lg:-bottom-[230px] left-[140px] lg:left-[140px]">
-                <img src="c2-assets/vegetable-busket.png" alt="">
-                <div class="flex flex-col items-center lg:items-start space-y-[22px]">
+                <img src="c2-assets/vegetable-busket.png" alt="" class="lg:w-2/5">
+                <div class="flex lg:w-3/5 flex-col items-center lg:items-start space-y-[22px]">
                     <h1 class="text-[36px] font-semibold text-center lg:text-left">Get Grocery News!</h1>
                     <p class="text-[20px] text-center lg:text-left font-normal">Exclusive training tips, ticks, product deals and more.</p>
                     <input type="text" name="" id="" placeholder="Enter email...." class="w-5/6 rounded-[8px] text-[16px] text-[#C4C4C4] p-[18px] rounded-2 bg-[#FFFFFF]">
@@ -232,7 +232,7 @@
                 <p class="text-[20px] text-[#FFFFFFB3]">Discover a world of treats, toys, and<br>essentials handpicked for your furry friends</p>
             </div>
             <div>
-                <ul class="text-[20px] text-[#EFEBE3] flex flex-col justify-between">
+                <ul class="text-[20px] text-[#EFEBE3] flex flex-col gap-y-[10px] justify-between">
                     <li><a href="">Product</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Contact us</a></li>

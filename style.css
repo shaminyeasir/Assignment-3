@@ -3,13 +3,36 @@
     margin-left: auto;
     margin-right: auto;
 }
-    
-/* @media only screen and (max-width: 576px) {
-       .floating{
-        width: calc(100% - 32px);
-        margin-left: auto;
-        margin-right: auto;
-    } */
+
+.move-text-right {
+    display: inline-block;
+    animation: moveLeftRight 3s ease-in-out infinite;
+  }
+  
+  @keyframes moveLeftRight {
+    0%, 100% {
+      transform: translateX(0); 
+    }
+    50% {
+      transform: translateX(20px); 
+    }
+  }
+  .move-text-left {
+    display: inline-block;
+    animation: moveRightLeft 3s ease-in-out infinite;
+  }
+  
+  @keyframes moveRightLeft {
+    0%, 100% {
+      transform: translateX(0); 
+    }
+    50% {
+      transform: translateX(-20px); 
+    }
+  }
+  
+  
+  
 
 
   
