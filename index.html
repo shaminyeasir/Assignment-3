@@ -31,7 +31,7 @@
                 <ul class="text-xl text-[#111111] flex justify-between gap-x-8">
                     <li><a href="">Product</a></li>
                     <li><a href="">Services</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
             <div class="nav_right_sml lg:hidden ">
@@ -80,17 +80,38 @@
                 </div>
             </div>
         </section>
+        <!-- Gallery Section -->
+        <section class="px-[16px] py-[48px] lg:p-[140px] bg-[#FFFFFF]">
+            <h1 class="text-[36px] font-semibold text-[#179800] mb-8">Gallery</h1>
+            <div class="flex flex-col gap-6 lg:flex-row lg:gap-6 justify-between">
+                <div class="flex flex-col p-8 rounded-[16px] bg-[#EFEBE3] items-center">
+                    <div class="p-[10px] rounded-[10px] bg-[#FFFFFF]"><img src="c2-assets/gallery_1.png" alt=""></div>
+                    <h3 class="text-[24px] font-semibold text-[#111111] text-center">Food Collection </h3>
+                    <p class="text-[20px] font-light text-[#111111] text-center">We collect the best quality foods for our customers</p>
+                </div>
+                <div class="flex flex-col p-8 rounded-[16px] bg-[#EFEBE3] items-center">
+                    <div class="p-[10px] rounded-[10px] bg-[#FFFFFF]"><img src="c2-assets/gallery_2.png" alt=""></div>
+                    <h3 class="text-[24px] font-semibold text-[#111111] text-center">Transportation</h3>
+                    <p class="text-[20px] font-light text-[#111111] text-center">We ensure the best transportation to ensure quality</p>
+                </div>
+                <div class="flex flex-col p-8 rounded-[16px] bg-[#EFEBE3] items-center">
+                   <div class="p-[10px] rounded-[10px] bg-[#FFFFFF]"><img src="c2-assets/gallery_3.png" alt=""></div>
+                    <h3 class="text-[24px] font-semibold text-[#111111] text-center">Storage</h3>
+                    <p class="text-[20px] font-light text-[#111111] text-center">We use advanced storage system for preservation</p>
+                </div>
+            </div>
+        </section>
         <!-- Popular Products Section -->
          <section class="px-[16px] py-[48px] lg:p-[140px] bg-[#EFEBE3]">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-[20px]">Popular Products</h1>
-            <div class="flex flex-col lg:flex-row justify-between gap-x-4">
+            <div class="flex flex-col lg:flex-row gap-[32px] justify-between lg:gap-x-4">
                 <div class="relative space-y-4 bg-gradient-to-br from-[#33E21F] to-[#93F788] pb-[250px] rounded-[10px] pl-[30px] pr-[30px] pt-[50px]">
                     <h4 class="text-[30px] font-bold text-[#ffffff]">30% off</h4>
                     <p class="text-[20px] font-normal text-[#111111]">Discover a world of treats, toys, and essentials handpicked for</p>
                     <button class="text-[20px] font-semibold px-[20px] py-[10px] bg-[#ffffff] rounded-[10px]">Buy Now</button>
                     <img src="c2-assets/vegetable-offer.png" alt="" class="absolute bottom-0 right-[10px] h-auto">
                 </div>
-                <div class="grid grid-cols-3 gap-4">
+                <div class="grid grid-cols-2 lg:grid-cols-3 gap-4">
                     <div class="p-[16px] rounded-[10px] bg-[#FFFFFF] flex justify-between gap-x-4">
                         <img src="c2-assets/onion.png" alt="" class=" bg-[#EFEBE3] rounded-[10px] p-2">
                         <div>
@@ -155,7 +176,7 @@
                             <p class="text-[16px] font-medium">$39.99</p>
                         </div>
                     </div>
-                    <div class="p-[16px] rounded-[10px] bg-[#FFFFFF] flex justify-between gap-x-4">
+                    <div class="p-[16px] rounded-[10px] bg-[#FFFFFF] justify-between gap-x-4 hidden lg:flex">
                         <img src="c2-assets/potato.png" alt="" class=" bg-[#EFEBE3] rounded-[10px] p-2">
                         <div>
                             <div class="items-center space-x-2"><img src="c2-assets/star.png" class="inline-block" alt=""><span class="text-center text-[16px] font-normal">4.5</span></div>
@@ -167,9 +188,9 @@
             </div>
          </section>
          <!-- Arrival & Offers Section -->
-          <section class="p-[140px] pb-[400px] bg-[#FFFFFF] relative">
+          <section class="px-[16px] pt-[48px] pb-[500px] lg:p-[140px] lg:pb-[400px] bg-[#FFFFFF] relative">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-12">Arrival & Offers</h1>
-            <div class="flex justify-between gap-x-[20px]">
+            <div class="flex flex-col lg:flex-row justify-between gap-y-[16px] lg:gap-x-[20px]">
                 <div class="bg-[#115414] flex gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
                     <div class="space-y-5">
                         <img src="c2-assets/dawat-logo.png" alt="">
@@ -192,11 +213,11 @@
                     </div>
                 </div>
             </div>
-            <div class="floating bg-[#EFEBE3] px-[100px] py-[55px] rounded-[24px] flex justify-between gap-x-[130px] absolute -bottom-[230px] left-[140px]">
+            <div class="floating bg-[#EFEBE3] p-[32px] rounded-[16px] lg:px-[100px] lg:py-[55px] lg:rounded-[24px] flex flex-col lg:flex-row justify-between gap-x-[130px] absolute -bottom-[320px] lg:-bottom-[230px] left-[140px] lg:left-[140px]">
                 <img src="c2-assets/vegetable-busket.png" alt="">
-                <div class="space-y-[22px]">
-                    <h1 class="text-[36px] font-semibold">Get Grocery News!</h1>
-                    <p class="text-[20px] font-normal">Exclusive training tips, ticks, product deals and more.</p>
+                <div class="flex flex-col items-center lg:items-start space-y-[22px]">
+                    <h1 class="text-[36px] font-semibold text-center lg:text-left">Get Grocery News!</h1>
+                    <p class="text-[20px] text-center lg:text-left font-normal">Exclusive training tips, ticks, product deals and more.</p>
                     <input type="text" name="" id="" placeholder="Enter email...." class="w-5/6 rounded-[8px] text-[16px] text-[#C4C4C4] p-[18px] rounded-2 bg-[#FFFFFF]">
                     <br>
                     <button class="rounded-[8px] bg-[#179800] text-[#FFFFFF] text-[20px] px-[30px] py-[10px]">Subscribe</button>
@@ -205,7 +226,7 @@
           </section>
     </main>
     <footer>
-        <section class="bg-[#179800] flex justify-between pl-[140px] pr-[140px] pb-[140px] pt-[340px] items-end">
+        <section class="bg-[#179800] flex flex-col px-[16px] pb-[48px] pt-[400px] space-y-[40px] lg:flex-row justify-between lg:pl-[140px] lg:pr-[140px] lg:pb-[140px] lg:pt-[340px] lg:items-end">
             <div>
                 <img src="c2-assets/logo-footer.png" alt="">
                 <p class="text-[20px] text-[#FFFFFFB3]">Discover a world of treats, toys, and<br>essentials handpicked for your furry friends</p>
