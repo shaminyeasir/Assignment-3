@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
+    <!-- vanila css -->
+     <link rel="stylesheet" href="style.css">
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font Sora -->
@@ -27,9 +29,9 @@
             </div>
             <div class="nav_mid hidden lg:block lg: pl-[150px]">
                 <ul class="text-xl text-[#111111] flex justify-between gap-x-8">
-                    <li>Product</li>
-                    <li>Services</li>
-                    <li>Contact us</li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
                 </ul>
             </div>
             <div class="nav_right_sml lg:hidden ">
@@ -46,7 +48,7 @@
                 </div>
             </div>
         </nav>
-        <div class="banner pt-[90px] px-9 lg:px-[285px] bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] space-y-9">
+        <div class="banner pt-[48px] px-9 lg:px-[285px] bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] space-y-9">
             <h1 class="text-[56px] font-semibold text-[#111111] text-center">
                 Freshness <span class="text-[#179800]">You&nbsp;Can<br>Count</span> On, Prices You’ll Love!
             </h1>
@@ -58,7 +60,7 @@
     </header>
     <main>
         <!-- Sevices Section -->
-        <section class="p-[140px] bg-[#FFFFFF]">
+        <section class="px-[16px] py-[48px] lg:p-[140px] bg-[#FFFFFF]">
             <h1 class="text-[36px] font-semibold text-[#179800] mb-8">Services</h1>
             <div class="flex flex-col gap-6 lg:flex-row lg:gap-6 justify-between">
                 <div class="flex flex-col p-8 rounded-[16px] bg-[#EFEBE3] items-center">
@@ -79,9 +81,9 @@
             </div>
         </section>
         <!-- Popular Products Section -->
-         <section class="p-[140px] bg-[#EFEBE3]">
-            <h3 class="text-[36px] font-semibold text-[#179800] mb-[20px]">Popular Products</h3>
-            <div class="flex justify-between gap-x-4">
+         <section class="px-[16px] py-[48px] lg:p-[140px] bg-[#EFEBE3]">
+            <h1 class="text-[36px] font-semibold text-[#179800] mb-[20px]">Popular Products</h1>
+            <div class="flex flex-col lg:flex-row justify-between gap-x-4">
                 <div class="relative space-y-4 bg-gradient-to-br from-[#33E21F] to-[#93F788] pb-[250px] rounded-[10px] pl-[30px] pr-[30px] pt-[50px]">
                     <h4 class="text-[30px] font-bold text-[#ffffff]">30% off</h4>
                     <p class="text-[20px] font-normal text-[#111111]">Discover a world of treats, toys, and essentials handpicked for</p>
@@ -164,9 +166,67 @@
                 </div>
             </div>
          </section>
+         <!-- Arrival & Offers Section -->
+          <section class="p-[140px] pb-[400px] bg-[#FFFFFF] relative">
+            <h1 class="text-[36px] font-semibold text-[#179800] mb-12">Arrival & Offers</h1>
+            <div class="flex justify-between gap-x-[20px]">
+                <div class="bg-[#115414] flex gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
+                    <div class="space-y-5">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <p class="bg-[#63B76D] rounded-[12px] px-[32px] py-[14px] inline-block text-[22px] text-[#FFFFFF]">Cook Exotic Dishes</p>
+                        <p class="text-[38px] text-[#FFFFFF]">UP to <span class="font-bold">20% OFF</span></p>
+                    </div>
+                    <div>
+                        <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bg-[#102861] flex gap-x-[40px] pt-8 pl-8 pr-8 rounded-[24px]">
+                    <div class="space-y-5">
+                        <img src="c2-assets/india-gate-logo.png" alt="">
+                        <p class="bg-[#63B76D] rounded-[12px] px-[32px] py-[14px] inline-block text-[22px] text-[#FFFFFF]">World's No.1 Rice</p>
+                        <p class="text-[38px] text-[#FFFFFF]">UP to <span class="font-bold">40% OFF</span></p>
+                    </div>
+                    <div>
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="floating bg-[#EFEBE3] px-[100px] py-[55px] rounded-[24px] flex justify-between gap-x-[130px] absolute -bottom-[230px] left-[140px]">
+                <img src="c2-assets/vegetable-busket.png" alt="">
+                <div class="space-y-[22px]">
+                    <h1 class="text-[36px] font-semibold">Get Grocery News!</h1>
+                    <p class="text-[20px] font-normal">Exclusive training tips, ticks, product deals and more.</p>
+                    <input type="text" name="" id="" placeholder="Enter email...." class="w-5/6 rounded-[8px] text-[16px] text-[#C4C4C4] p-[18px] rounded-2 bg-[#FFFFFF]">
+                    <br>
+                    <button class="rounded-[8px] bg-[#179800] text-[#FFFFFF] text-[20px] px-[30px] py-[10px]">Subscribe</button>
+                </div>
+            </div>
+          </section>
     </main>
     <footer>
-
+        <section class="bg-[#179800] flex justify-between pl-[140px] pr-[140px] pb-[140px] pt-[340px] items-end">
+            <div>
+                <img src="c2-assets/logo-footer.png" alt="">
+                <p class="text-[20px] text-[#FFFFFFB3]">Discover a world of treats, toys, and<br>essentials handpicked for your furry friends</p>
+            </div>
+            <div>
+                <ul class="text-[20px] text-[#EFEBE3] flex flex-col justify-between">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="space-y-[10px]">
+                <p class="text-[16px] font-medium text-[#EFEBE3]">Follow Us</p>
+                <div class="flex gap-x-[20px]">
+                    <img src="c2-assets/facebook.png" alt="">
+                    <img src="c2-assets/instagram.png" alt="">
+                    <img src="c2-assets/linkedin.png" alt="">
+                    <img src="c2-assets/youtube.png" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
