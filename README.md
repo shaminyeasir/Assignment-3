@@ -34,5 +34,5 @@ Nature's Platter is a simple and effective website allowing customers to shop on
 To get started with this project on your local machine:
 
 1. **Clone** this repository:
-   git clone https://github.com/your-username/natures-platter.git
+   git clone https://github.com/shaminyeasir/natures-platter.git
 2. Install the dependencies and run!
